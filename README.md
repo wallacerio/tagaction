@@ -120,11 +120,11 @@ Run actions by tag
 
 <hr>
 
-    <h2>API</h2>
+#API#
 
-    <strong>data-tagaction =</strong> type of action (click,dblclick , mousemove, click.toggle, dblclick.toggle)
-    <strong>data-tagaction-source =</strong> element source of action (this OR id of element)
-    <strong>data-tagaction-target =</strong> element destination of action (id of element)
-    <strong>data-tagaction-action =</strong> action on element source ( function OR pre-defined action)
-    <strong>data-tagaction-callback =</strong> action run after action
-    <strong>data-tagaction-callback-toggle =</strong> action run after action (only mode toggle)
+    - data-tagaction = type of action (click,dblclick , mousemove, click.toggle, dblclick.toggle)
+    - data-tagaction-source = element source of action (this OR id of element)
+    - data-tagaction-target = element destination of action (id of element)
+    - data-tagaction-action = action on element source ( function OR pre-defined action)
+    - data-tagaction-callback = action run after action
+    - data-tagaction-callback-toggle = action run after action (only mode toggle)
