@@ -27,8 +27,8 @@ Run actions by tag
               >Click here to run Example</a>
 
 
-<br>
-<br>
+
+
 
 <h2>Examples</h2>
 
@@ -43,8 +43,8 @@ Run actions by tag
 
 
 
-<br>
-<br>
+
+
 
 <h3>Tag run function with callback</h3>
 <p>Execute a javascript code on click tag (div) with callback:</p>
@@ -59,8 +59,8 @@ Run actions by tag
 
 
 
-<br>
-<br>
+
+
 
 <h3>Tag run function with callback by mode toggle</h3>
 <p>Execute a javascript code on click tag (div) with callback by mode toggle:</p>
@@ -75,8 +75,8 @@ Run actions by tag
 
 
 
-<br>
-<br>
+
+
 
 <h3>Tag run function with only one action with reserved word (toggle)</h3>
 <p></p>
@@ -89,8 +89,8 @@ Run actions by tag
 
 
 
-<br>
-<br>
+
+
 
 <h3>Get content extern and show on div element</h3>
 <p></p>
@@ -105,8 +105,8 @@ Run actions by tag
 
 
 
-<br>
-<br>
+
+
 
 <h3>Run action on other element</h3>
 <p></p>
@@ -122,9 +122,9 @@ Run actions by tag
 
     <h2>API</h2>
 
-    <strong>data-tagaction =</strong> type of action (click,dblclick , mousemove, click.toggle, dblclick.toggle)<br>
-    <strong>data-tagaction-source =</strong> element source of action (this OR id of element)<br>
-    <strong>data-tagaction-target =</strong> element destination of action (id of element)<br>
-    <strong>data-tagaction-action =</strong> action on element source ( function OR pre-defined action)<br>
-    <strong>data-tagaction-callback =</strong> action run after action<br>
+    <strong>data-tagaction =</strong> type of action (click,dblclick , mousemove, click.toggle, dblclick.toggle)
+    <strong>data-tagaction-source =</strong> element source of action (this OR id of element)
+    <strong>data-tagaction-target =</strong> element destination of action (id of element)
+    <strong>data-tagaction-action =</strong> action on element source ( function OR pre-defined action)
+    <strong>data-tagaction-callback =</strong> action run after action
     <strong>data-tagaction-callback-toggle =</strong> action run after action (only mode toggle)
