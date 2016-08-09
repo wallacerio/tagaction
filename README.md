@@ -58,23 +58,13 @@ Run actions by tag
 
 
 
-<blockquote>
-    <div class='btdefault' 
-      data-tagaction="click" 
-      data-tagaction-source="this"         
-      data-tagaction-action = "alert('clicked!!')"    
-      data-tagaction-callback="function(){alert('this callback: '+this.innerHTML);}"                  
-    >Click here to run Example</div>
-</blockquote>
-
-
 
 <br>
 <br>
 
 <h3>Tag run function with callback by mode toggle</h3>
 <p>Execute a javascript code on click tag (div) with callback by mode toggle:</p>
-<pre>   
+
     &lt;a class='btdefault' 
                   data-tagaction="click.toggle" 
                   data-tagaction-source="this"                       
@@ -82,16 +72,6 @@ Run actions by tag
                   data-tagaction-callback-toggle="function(){alert('toggle 2');}"            
               &gt;Click here to run Example&lt;/a&gt;
 
-</pre>
-
-<blockquote>
-    <button class='btdefault' 
-      data-tagaction="click.toggle" 
-      data-tagaction-source="this"                       
-      data-tagaction-callback="function(){alert('toggle 1');}"                  
-      data-tagaction-callback-toggle="function(){alert('toggle 2');}"                  
-    >Click here to run Example</button>
-</blockquote>
 
 
 
@@ -100,22 +80,12 @@ Run actions by tag
 
 <h3>Tag run function with only one action with reserved word (toggle)</h3>
 <p></p>
-<pre>   
+
     &lt;a class='btdefault' 
                   data-tagaction="click.toggle" 
                   data-tagaction-source="this"         
                   data-tagaction-action = "alert('clicked!! - @toggle'); "             
               &gt;Click here to run Example&lt;/a&gt;
-
-</pre>
-
-<blockquote>
-    <a class='btdefault' 
-          data-tagaction="click.toggle" 
-          data-tagaction-source="this"         
-          data-tagaction-action = "alert('clicked!! - @toggle'); "                             
-    >Click here to run Example</a>
-</blockquote>
 
 
 
@@ -124,29 +94,15 @@ Run actions by tag
 
 <h3>Get content extern and show on div element</h3>
 <p></p>
-<pre>   
+  
     &lt;a class='btdefault' 
                   data-tagaction="click.toggle" 
                   data-tagaction-source="this"         
                   data-tagaction-action = "alert('clicked!! - @toggle'); "             
               &gt;Click here to run Example&lt;/a&gt;
 
-</pre>
 
-<blockquote>
-    <a class='btdefault' 
-          data-tagaction="click.toggle" 
-          data-tagaction-source="this" 
-          data-tagaction-target="#resulttagview" 
-          data-tagaction-action="get.url::resulttagview.html"                      
-    >Click here to run Example</a>
 
-    <br><br>
-    <label>Result click:</label>
-    <pre>
-        <div id="resulttagview"></div>
-    </pre>
-</blockquote>
 
 
 <br>
@@ -154,25 +110,12 @@ Run actions by tag
 
 <h3>Run action on other element</h3>
 <p></p>
-<pre>   
+
     &lt;a class='btdefault' 
                   data-tagaction="click"           
                     data-tagaction-target="[name='otherelement']"                
               &gt;Click here to run Example&lt;/a&gt;
 
-</pre>
-
-<blockquote>
-    <div class='btdefault' 
-          data-tagaction="click"           
-          data-tagaction-target="[name='otherelement']"                      
-    >Element only initialize action (click here)</div>
-
-    <br>
-    <a class='btdefault' name="otherelement" onclick="alert('clicked!!');">Click here to run Example</a>
-
-   
-</blockquote>
 
 
 <hr>
