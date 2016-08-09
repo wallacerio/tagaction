@@ -1,0 +1,12 @@
+a{
+	color: blue;
+	cursor: pointer;
+}a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+pre{
+	background: #eee;
+	padding: 10px;
+}
